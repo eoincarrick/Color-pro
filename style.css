@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #223433;
+  box-shadow: 0 0 0.4rem 0.01rem black;
+}
+
+ul {
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+  margin: 20rem 0 0 0;
+}
+
+p {
+  font-size: 2.5rem;
+}
+
+button {
+  padding: 3rem;
+  background-color: transparent;
+  border: 0.01rem solid black;
+}
